@@ -1,25 +1,24 @@
 package hard
 
 import (
-	"sort"
 )
 
 func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
-	t := len(nums1) + len(nums2)
-	m := 0
-	if t % 2 == 0 {
-		m = t / 2 - 1
-	} else {
-		m = t / 2
-	}
-	if len(nums1) == 0 {
-		return findMid(nums2)
-	}
-	if len(nums2) == 0 {
-		return findMid(nums1)
-	}
-	p1, p2 := 0, 0
-
+	//t := len(nums1) + len(nums2)
+	//m := 0
+	//if t % 2 == 0 {
+	//	m = t / 2 - 1
+	//} else {
+	//	m = t / 2
+	//}
+	//if len(nums1) == 0 {
+	//	return findMid(nums2)
+	//}
+	//if len(nums2) == 0 {
+	//	return findMid(nums1)
+	//}
+	//p1, p2 := 0, 0
+	return 0
 }
 
 func findMid(nums []int) float64 {
