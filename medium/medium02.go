@@ -1,5 +1,6 @@
 package medium
 
+// 链表合并
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	pre := &ListNode{}
 	pre.Next = l2
